@@ -1,24 +1,21 @@
 import React, { useState } from 'react';
-import '../styles/AddContentForm.css'
+import './styles/AddContentForm.css';
 
 const AddContentForm = ({ onAddContent }) => {
   const [name, setName] = useState('');
   const [type, setType] = useState('image');
-  const [url, setUrl] = useState('');
+  const [url, setUrl] = useState(''); // Kullanıcıdan alınan URL'yi burada saklayacağız
   const [duration, setDuration] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Gerekli kontrolleri yapabilir ve hataları yönetebilirsiniz.
     const newContent = {
       name,
       type,
-      url,
-      duration: parseInt(duration),
+      url, // Kullanıcıdan alınan URL'yi nesneye ekliyoruz
+      duration: parseInt(duration), // Kullanıcıdan alınan süreyi sayıya çeviriyoruz
     };
-    // onAddContent fonksiyonuna yeni içeriği gönderin
-    onAddContent(newContent);
-    // Form alanlarını temizle
+    onAddContent(newContent); // onAddContent prop'unu kullanarak yeni içeriği ana bileşene gönderiyoruz
     setName('');
     setType('image');
     setUrl('');
