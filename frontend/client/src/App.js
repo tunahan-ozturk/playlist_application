@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import AddContentForm from './components/AddContentForm';
-import ShowContent from './components/ShowContent';
-import './App.css';
+import React, { useState } from "react";
+import AddContentForm from "./components/AddContentForm";
+import ShowContent from "./components/ShowContent";
+import "./App.css";
 
 const App = () => {
   const [playlist, setPlaylist] = useState([]);
