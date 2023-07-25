@@ -7,7 +7,7 @@ const AddContentForm = ({ onAddContent }) => {
   const [url, setUrl] = useState(''); // Kullanıcıdan alınan URL'yi burada saklayacağız
   const [duration, setDuration] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => { // Form gönderildiğinde çalışacak fonksiyon
     e.preventDefault();
     const newContent = {
       name,

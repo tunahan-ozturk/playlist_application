@@ -4,7 +4,7 @@ import ShowContent from "./components/ShowContent";
 import "./App.css";
 
 const App = () => {
-  const [playlist, setPlaylist] = useState([
+  const [playlist, setPlaylist] = useState([ // playlist dizisini useState ile oluşturuyoruz
     {
       name: "Sample Image 1",
       type: "image",
@@ -31,16 +31,16 @@ const App = () => {
     };
   }, [playlist, currentContentIndex]);
 
-  const handleAddContent = (newContent) => {
+  const handleAddContent = (newContent) => { // Yeni içerik ekleme fonksiyonunu burada tanımlıyoruz
     setPlaylist([...playlist, newContent]);
   };
 
   return (
     <div className="app">
-      <AddContentForm onAddContent={handleAddContent} />
+      <AddContentForm onAddContent={handleAddContent} /> 
       <div className="playlist">
         <ul>
-          {playlist.map((content, index) => (
+          {playlist.map((content, index) => ( 
             <li key={index} style={{ display: index === currentContentIndex ? "block" : "none" }}>
               <ShowContent contentUrl={content.url} />
             </li>
