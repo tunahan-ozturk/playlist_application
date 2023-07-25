@@ -1,14 +1,14 @@
 // backend/index.js
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 const port = 1955;
 
+const allowedOrigins = ['http://localhost:3000'];
 
 app.use(cors({
-  origin: 'http://localhost:3000', // frontend'in adresi
+  origin: allowedOrigins, // frontend'in adresi
   methods: ['GET', 'POST'],
 }));
 
@@ -29,8 +29,8 @@ let playlist = [
   },
 ];
 
-app.get('/api/playlist', (req, res) => { // playlist dizisini döndürüyoruz
-  res.json(playlist);
+app.get('/api/playlist', async (req, res) => { // playlist dizisini döndürüyoruz
+  res.json(playlist); // JSON formatında döndürüyoruz
 });
 
 app.post('/api/add', (req, res) => { // playlist dizisine yeni içerik ekliyoruz

@@ -10,8 +10,8 @@ const ShowContent = ({ contentUrl }) => {
       try {
         const response = await fetch(contentUrl);
         if (response.ok) {
-          const data = await response.blob();// blob() metoduyla içeriği blob olarak alıyoruz
-          setContent(data);
+          const data = await response.blob();
+          setContent(URL.createObjectURL(data)); // Düzeltme burada!
         } else {
           console.error("Failed to fetch content:", response.statusText);
         }
@@ -34,8 +34,15 @@ const ShowContent = ({ contentUrl }) => {
 
   return (
     <div className="show-content">
-      <h2>{content.name}</h2>
-      <img src={URL.createObjectURL(content)} alt="Content" />
+      {/* İçerik türüne göre resim ya da video gösterimi */}
+      {contentUrl.endsWith(".mp4") ? (
+        <video controls>
+          <source src={content} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      ) : (
+        <img src={content} alt="Content" />
+      )}
     </div>
   );
 };

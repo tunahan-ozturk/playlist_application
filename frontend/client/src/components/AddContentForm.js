@@ -27,7 +27,7 @@ const AddContentForm = ({ onAddContent }) => {
       <h2>Add New Content</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name"> Content Name:</label>
           <input
             type="text"
             id="name"
@@ -56,6 +56,7 @@ const AddContentForm = ({ onAddContent }) => {
             value={url}
             onChange={(e) => setUrl(e.target.value)}
             required
+            placeholder='https://'
           />
         </div>
         <div className="form-group">
