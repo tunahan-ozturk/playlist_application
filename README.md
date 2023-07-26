@@ -1,44 +1,57 @@
-# playlist_application
- - Playlist application with React and NodeJs
- - Playlist Application
-Bu proje, kullanıcının içerikleri (resim veya video) oynatabileceği basit bir playlist uygulamasıdır.
+# Proje Başlığı
 
-Özellikler
-Kullanıcı, yeni içerikleri playliste ekleyebilir.
-Playlistteki içerikler otomatik olarak oynatılır ve belirtilen süre kadar gösterilir.
-Proje, içerik türüne göre resim veya video içeriğini oynatabilir.
-Kullanılan Teknolojiler
-Frontend:
+Kısa bir açıklama veya proje hakkında temel bilgiler
 
-React.js
-HTML
-CSS
-Backend:
+## Başlık ve Alt Başlık Stilleri
 
-Node.js
-Express.js
-Kurulum
-Projeyi klonlayın:
-bash
-Copy code
-git clone https://github.com/kullaniciadi/playlist_application.git
-cd playlist_application
-Frontend ve Backend klasörlerindeki bağımlılıkları yükleyin:
-bash
-Copy code
-cd frontend/client
-npm install
+**Kalın Metin:**
 
-cd ../../backend
-npm install
-Projeyi başlatın:
-bash
-Copy code
-cd frontend/client
-npm start
-Nasıl Kullanılır?
-Uygulamayı başlattığınızda, ön tanımlı olarak iki içerikli bir playlist görüntülenecektir.
-Yeni içerik eklemek için "Add New Content" formunu kullanabilirsiniz.
-Formda, içerik adı, türü (resim veya video), URL ve içeriğin gösterileceği süreyi belirtmeniz gerekmektedir.
-"Add Content" butonuna tıkladığınızda, yeni içerik playliste eklenir ve otomatik olarak gösterilmeye başlar.
-   
+Bu metin kalın yazılmıştır.
+
+__Bu metin de kalın yazılmıştır.__
+
+**İtalik Metin:**
+
+*Bu metin italik yazılmıştır.*
+
+_ Bu metin de italik yazılmıştır._
+
+**Başlık Seviyeleri:**
+
+# Başlık 1
+## Başlık 2
+### Başlık 3
+#### Başlık 4
+##### Başlık 5
+###### Başlık 6
+
+## Liste Oluşturma
+
+**Sırasız Liste:**
+
+- Liste Öğesi 1
+- Liste Öğesi 2
+- Liste Öğesi 3
+
+**Sıralı Liste:**
+
+1. Adım 1
+2. Adım 2
+3. Adım 3
+
+## Bağlantılar
+
+[Proje Web Sitesi](https://www.example.com)
+
+[GitHub Depo](https://github.com/kullanici/proje)
+
+## Görseller
+
+![Ekran Görüntüsü](screenshots/screenshot.png)
+
+## Kod Blokları
+
+```js
+function helloWorld() {
+  console.log("Merhaba, Dünya!");
+}
