@@ -1,6 +1,6 @@
 # playlist_application
  - Playlist application with React and NodeJs
- - Playlist Application
+ - **Playlist Application**
 Bu proje, kullanıcının içerikleri (resim veya video) oynatabileceği basit bir playlist uygulamasıdır.
 
 Özellikler
