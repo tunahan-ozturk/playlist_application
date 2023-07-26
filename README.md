@@ -16,17 +16,17 @@ Bu proje, kullanıcının içerikleri (resim veya video) oynatabileceği basit b
 
 
 ### Kurulum
-**1.Projeyi klonlayın:**
+**1. Projeyi klonlayın:**
 git clone https://github.com/tnhn17/playlist_application.git
 
-**2.cd playlist_application**
+**2. cd playlist_application**
    
-**3.Paket kurulumları:**
+**3. Paket kurulumları:**
 * cd playlist_application
 * npm install
 * npm install web-vitals
 
-**4.Projeyi Başlatın:**
+**4. Projeyi Başlatın:**
 * cd frontend/client
 * npm start
 
