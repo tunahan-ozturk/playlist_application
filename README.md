@@ -1,6 +1,8 @@
 # playlist_application
  - Playlist application with React and NodeJs
- - **Playlist Application**
+ - <code style="font-size: 18px; color: #333333;">
+Bu metin koyu renkte ve büyük yazılmıştır.
+</code>
 Bu proje, kullanıcının içerikleri (resim veya video) oynatabileceği basit bir playlist uygulamasıdır.
 
 Özellikler
