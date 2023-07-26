@@ -1,7 +1,7 @@
 /* ShowContent.css */
 
 .show-content {
-    position: fixed;
+    position: fixed; /* Sabit konum */
     top: 0;
     left: 0;
     width: 100%;
@@ -20,8 +20,15 @@
   
   .show-content img,
   .show-content video {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+   width: 1500px;
+   height: 1500px;
+   object-fit: contain; 
   }
   
+  /* Responsive */
+  @media (max-width: 600px) {
+    .show-content {
+      max-width: 75%;
+      object-fit: contain;
+    }
+  }

@@ -7,7 +7,7 @@ const App = () => {
   const [playlist, setPlaylist] = useState([ // playlist dizisini useState ile oluşturuyoruz
     {
       name: "Sample Image 1",
-      type: "image",
+      type: "video",
       url: "https://loremflickr.com/320/240/brazil,rio",
       duration: 5,
     },

@@ -11,7 +11,7 @@ const ShowContent = ({ contentUrl }) => {
         const response = await fetch(contentUrl);
         if (response.ok) {
           const data = await response.blob();
-          setContent(URL.createObjectURL(data)); // Düzeltme burada!
+          setContent(URL.createObjectURL(data));  // URL.createObjectURL() ile içeriğin URL'sini oluşturuyoruz
         } else {
           console.error("Failed to fetch content:", response.statusText);
         }
