@@ -1,57 +1,16 @@
-# Proje Başlığı
+# Playlist Uygulaması
 
-Kısa bir açıklama veya proje hakkında temel bilgiler
+Bu proje, kullanıcıların bir çalma listesine video ve resim içerikleri ekleyebilecekleri basit bir web uygulamasıdır. Kullanıcılar, içeriklerin adını, türünü, URL'sini ve süresini girebilir ve çalma listesine ekleyebilirler.
 
-## Başlık ve Alt Başlık Stilleri
+## Başlarken
 
-**Kalın Metin:**
+Bu talimatlar, projeyi yerel makinenizde geliştirmek ve çalıştırmak için size yol gösterecektir.
 
-Bu metin kalın yazılmıştır.
+### Önkoşullar
 
-__Bu metin de kalın yazılmıştır.__
+Bu projeyi çalıştırmak için Node.js'in yüklü olması gereklidir.
 
-**İtalik Metin:**
+### Kurulum
 
-*Bu metin italik yazılmıştır.*
+1. Projeyi klonlayın:
 
-_ Bu metin de italik yazılmıştır._
-
-**Başlık Seviyeleri:**
-
-# Başlık 1
-## Başlık 2
-### Başlık 3
-#### Başlık 4
-##### Başlık 5
-###### Başlık 6
-
-## Liste Oluşturma
-
-**Sırasız Liste:**
-
-- Liste Öğesi 1
-- Liste Öğesi 2
-- Liste Öğesi 3
-
-**Sıralı Liste:**
-
-1. Adım 1
-2. Adım 2
-3. Adım 3
-
-## Bağlantılar
-
-[Proje Web Sitesi](https://www.example.com)
-
-[GitHub Depo](https://github.com/kullanici/proje)
-
-## Görseller
-
-![Ekran Görüntüsü](screenshots/screenshot.png)
-
-## Kod Blokları
-
-```js
-function helloWorld() {
-  console.log("Merhaba, Dünya!");
-}
