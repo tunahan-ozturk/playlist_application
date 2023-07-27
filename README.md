@@ -26,6 +26,7 @@ git clone https://github.com/tnhn17/playlist_application.git
 * npm install web-vitals
 * npm install express body-parser cors
 * npm install react react-dom
+* Not: (Eslint hatası alıyorsanız): npm install eslint eslint-config-react-app react-scripts
 * npm install
   
 
