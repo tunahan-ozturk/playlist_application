@@ -40,6 +40,7 @@ git clone https://github.com/tnhn17/playlist_application.git
 * Formda, içerik adı, türü (resim veya video), URL ve içeriğin gösterileceği süreyi belirtmeniz gerekmektedir.
 * "Add Content" butonuna tıkladığınızda, yeni içerik playliste eklenir ve otomatik olarak gösterilmeye başlar.
 * İçerik alabileceğiniz ücretsiz siteler:
+  * Not: Liklere girip linklerden istediğiniz içeriği almanız gerekmekte.
   * https://loremflickr.com/
   * https://picsum.photos/
 
