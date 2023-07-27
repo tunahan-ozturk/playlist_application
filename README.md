@@ -23,8 +23,10 @@ git clone https://github.com/tnhn17/playlist_application.git
    
 **3. Paket kurulumları:**
 * cd playlist_application
-* npm install
 * npm install web-vitals
+* npm install express body-parser cors
+* npm install
+* 
 
 **4. Projeyi Başlatın:**
 * cd frontend/client
