@@ -25,8 +25,9 @@ git clone https://github.com/tnhn17/playlist_application.git
 * cd playlist_application
 * npm install web-vitals
 * npm install express body-parser cors
+* npm install react react-dom
 * npm install
-* 
+  
 
 **4. Projeyi Başlatın:**
 * cd frontend/client
